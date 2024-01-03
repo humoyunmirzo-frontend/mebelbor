@@ -17,7 +17,7 @@ async function login() {
 </script>
 
 <template>
-  <div class="grid h-full place-items-center bg-primary">
+  <div class="grid h-100vh place-items-center bg-primary">
     <div class="mx-4 flex flex-col items-start gap-3 rounded-12px bg-white px-5 py-4">
       <div class="text-4.5">
         Kirish
@@ -84,8 +84,3 @@ async function login() {
   color: red !important;
 }
 </style>
-
-<route lang="yaml">
-meta:
-  layout: empty
-</route>

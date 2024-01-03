@@ -48,7 +48,7 @@ function addToCart(data: IProduct) {
       </div>
     </div>
     <div class="h-1px w-120px flex self-center bg-primary" />
-    <the-button prepend-icon="ri-shopping-basket-line" size="lg" class="w-full pt-3" @click="!isPushed && addToCart(props.data)">
+    <the-button :prepend-icon="!isPushed ? 'ri-shopping-basket-line' : 'ri-check-line'" size="lg" :color="!isPushed ? 'primary' : 'success'" class="w-full pt-3" @click="!isPushed && addToCart(props.data)">
       {{ !isPushed ? "Savatga qo'shish" : "Savatda mavjud" }}
     </the-button>
   </div>

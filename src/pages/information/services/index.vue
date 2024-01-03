@@ -19,6 +19,8 @@ const serviceCards: object[] = [
 </script>
 
 <template>
+  <Header />
+
   <div class="mt-108px flex flex-col items-start justify-center gap-6 px-74px py-36px">
     <div class="text-10 text-#3A3A3A">
       Servis xizmatlarimizdan lavhalar
@@ -42,6 +44,7 @@ const serviceCards: object[] = [
       </div>
     </div>
   </div>
+  <Footer />
 </template>
 
 <style scoped>
