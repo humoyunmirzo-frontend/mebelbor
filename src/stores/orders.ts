@@ -14,7 +14,7 @@ export const useOrdersStore = defineStore('orders', {
         orderedProducts: [
           {
             id: 4,
-            image: '/src/assets/images/stul4.png',
+            image: 'https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=600',
             name: 'Stol stul to\'plami',
             materialType: 'DSP',
             color: 'Yo\'goch rang',
@@ -23,7 +23,7 @@ export const useOrdersStore = defineStore('orders', {
           },
           {
             id: 5,
-            image: '/src/assets/images/oshxonamebel.png',
+            image: 'https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=600',
             name: 'Oshxona mebellari to\'plami',
             materialType: 'MDF',
             color: 'Qaymoq rang',
@@ -41,7 +41,7 @@ export const useOrdersStore = defineStore('orders', {
         orderedProducts: [
           {
             id: 1,
-            image: '/src/assets/images/shkaf1.png',
+            image: 'https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=600',
             name: 'Shkaf',
             materialType: 'MDF',
             color: 'Oq',

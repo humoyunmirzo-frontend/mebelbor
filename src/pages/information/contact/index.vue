@@ -10,7 +10,7 @@ const message = ref<string>('')
       Biz bilan bog'lanish
     </div>
     <div class="grid grid-cols-2 items-start gap-10 overflow-x-hidden border border-gray-200 rounded-8px">
-      <img src="/src/assets/images/callcenter.jpg" alt="">
+      <img src="https://images.pexels.com/photos/859264/pexels-photo-859264.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
       <div class="h-full flex flex-col justify-between gap-3 p-5">
         <form class="flex flex-col gap-3">
           <input v-model="name" required class="block w-full border border-gray-300 rounded-lg bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-gray-200 focus:ring-primary" type="text" placeholder="Ismingiz">

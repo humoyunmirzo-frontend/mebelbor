@@ -1,17 +1,17 @@
 <script setup lang="ts">
 const adviceCards: object[] = [
   {
-    image: '/src/assets/images/slide4.png',
+    image: 'https://images.pexels.com/photos/2249959/pexels-photo-2249959.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Yashash uchun qanday xona kerak?',
     date: '12-yanvar, 2023',
   },
   {
-    image: '/src/assets/images/stol2.png',
+    image: 'https://images.pexels.com/photos/189333/pexels-photo-189333.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Ishlaydigan toza ko\'rinish uchun yechim bo\'sh joy',
     date: '15-fevral, 2023',
   },
   {
-    image: '/src/assets/images/oshxonamebel.png',
+    image: 'https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Oshpazlik faoliyatingizni qiling yaxshi sozlash bilan yanada qiziqarli',
     date: '8-avgust, 2023',
   },

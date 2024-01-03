@@ -44,16 +44,16 @@ register()
         class="mySwiper"
       >
         <swiper-slide>
-          <img src="../assets/images/slide1.png" alt="">
+          <img class="h-250px w-300px object-cover" src="https://images.pexels.com/photos/945688/pexels-photo-945688.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
         </swiper-slide>
         <swiper-slide>
-          <img src="../assets/images/slide2.png" alt="">
+          <img class="h-250px w-300px object-cover" src="https://images.pexels.com/photos/238377/pexels-photo-238377.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
         </swiper-slide>
         <swiper-slide>
-          <img src="../assets/images/slide3.png" alt="">
+          <img class="h-250px w-300px object-cover" src="https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
         </swiper-slide>
         <swiper-slide>
-          <img src="../assets/images/slide4.png" alt="">
+          <img class="h-250px w-300px object-cover" src="https://images.pexels.com/photos/1957477/pexels-photo-1957477.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
         </swiper-slide>
       </swiper-container>
     </div>

@@ -9,7 +9,7 @@ export const useCartProductsStore = defineStore('cartProducts', {
     cartProducts: [
       {
         id: '1',
-        image: '/src/assets/images/divan.png',
+        image: 'https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=600',
         name: 'Divan',
         materialType: 'MDF',
         color: 'Oq',
@@ -19,7 +19,7 @@ export const useCartProductsStore = defineStore('cartProducts', {
       },
       {
         id: '2',
-        image: '/src/assets/images/stol5.png',
+        image: 'https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg?auto=compress&cs=tinysrgb&w=600',
         name: 'Stol stullar to\'plami',
         materialType: 'DVP',
         color: 'Oq',

@@ -1,17 +1,17 @@
 <script setup lang="ts">
 const serviceCards: object[] = [
   {
-    image: '/src/assets/images/servis1.jpg',
+    image: 'https://images.pexels.com/photos/5974325/pexels-photo-5974325.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Xodimlarimiz tomonidan servis hizmatlari ',
     description: '    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat corporis eius, sit ut explicabo!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat corporis eius, sit ut explicabo!',
   },
   {
-    image: '/src/assets/images/servis2.jpg',
+    image: 'https://images.pexels.com/photos/5089178/pexels-photo-5089178.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Xodimlarimiz shaharlararo servis hizmatlarini bajarishmoqda',
     description: '    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat corporis eius, sit ut explicabo!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat corporis eius, sit ut explicabo!',
   },
   {
-    image: '/src/assets/images/servis3.jpg',
+    image: 'https://images.pexels.com/photos/5089167/pexels-photo-5089167.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Mijozlar minnatdorchiligi bildirilmoqda',
     description: '    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat corporis eius, sit ut explicabo!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat corporis eius, sit ut explicabo!',
   },

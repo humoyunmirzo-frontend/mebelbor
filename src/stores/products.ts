@@ -9,7 +9,7 @@ export const useProductsStore = defineStore('products', {
     products: [
       {
         id: '1',
-        image: '/src/assets/images/shkaf1.png',
+        image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600',
         name: 'Shkaf',
         materialType: 'MDF',
         color: 'Oq',
@@ -19,7 +19,7 @@ export const useProductsStore = defineStore('products', {
       },
       {
         id: '2',
-        image: '/src/assets/images/divan2.png',
+        image: 'https://images.pexels.com/photos/923192/pexels-photo-923192.jpeg?auto=compress&cs=tinysrgb&w=600',
         name: 'Kreslo',
         materialType: 'DVP',
         color: 'Oq',
@@ -29,7 +29,7 @@ export const useProductsStore = defineStore('products', {
       },
       {
         id: '3',
-        image: '/src/assets/images/stol5.png',
+        image: 'https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=600',
         name: 'Stol stul to\'plami',
         materialType: 'MDF',
         color: 'Oq',
@@ -40,7 +40,7 @@ export const useProductsStore = defineStore('products', {
       },
       {
         id: '4',
-        image: '/src/assets/images/stul4.png',
+        image: 'https://images.pexels.com/photos/133919/pexels-photo-133919.jpeg?auto=compress&cs=tinysrgb&w=600',
         name: 'Stol stul to\'plami',
         materialType: 'DSP',
         color: 'Yo\'goch rang',
@@ -50,7 +50,7 @@ export const useProductsStore = defineStore('products', {
       },
       {
         id: '5',
-        image: '/src/assets/images/oshxonamebel.png',
+        image: 'https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600',
         name: 'Oshxona mebellari to\'plami',
         materialType: 'MDF',
         color: 'Qaymoq rang',

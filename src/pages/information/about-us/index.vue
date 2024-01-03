@@ -7,7 +7,7 @@
       Biz haqimizda
     </div>
     <div class="grid grid-cols-2 items-start gap-10 overflow-x-hidden border border-gray-200 rounded-8px">
-      <img src="/src/assets/images/aboutus.jpg" alt="">
+      <img src="https://images.pexels.com/photos/4491881/pexels-photo-4491881.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
       <div class="h-full flex flex-col justify-between p-5">
         <div class="flex flex-col">
           <div class="text-5 font-700">
