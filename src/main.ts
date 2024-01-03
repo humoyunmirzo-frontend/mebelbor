@@ -4,7 +4,7 @@ import { VueMaskDirective } from 'v-mask'
 import { defaultConfig, plugin } from '@formkit/vue'
 
 // import Previewer from 'virtual:vue-component-preview'
-import { routes } from 'vue-router/auto/routes'
+// import { routes } from 'vue-router/auto/routes'
 import VueNumerals from 'vue-numerals'
 import App from './App.vue'
 import type { UserModule } from './types'
@@ -13,19 +13,23 @@ import '@unocss/reset/tailwind.css'
 import './styles/main.css'
 import 'uno.css'
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import generatedRoutes from '~pages'
+
 const vMaskV2 = VueMaskDirective
 const vMaskV3 = {
   beforeMount: vMaskV2.bind,
   updated: vMaskV2.componentUpdated,
   unmounted: vMaskV2.unbind,
 }
-// const routes = setupLayouts(generatedRoutes)
+const routes = setupLayouts(generatedRoutes)
 
 // https://github.com/antfu/vite-ssg
 export const createApp = ViteSSG(
   App,
   {
-    routes: setupLayouts(routes),
+    routes,
     base: import.meta.env.BASE_URL,
   },
   (ctx) => {

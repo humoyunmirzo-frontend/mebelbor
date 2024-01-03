@@ -84,3 +84,8 @@ async function login() {
   color: red !important;
 }
 </style>
+
+<route lang="yaml">
+meta:
+  layout: empty
+</route>

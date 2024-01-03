@@ -127,3 +127,8 @@ function acceptOrder(id: string) {
     </the-table>
   </div>
 </template>
+
+<route lang="yaml">
+meta:
+  layout: empty
+</route>

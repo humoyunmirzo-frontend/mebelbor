@@ -63,8 +63,6 @@ function addToCart() {
 </script>
 
 <template>
-  <Header />
-
   <the-modal v-model="showModal">
     <div class="flex flex-col items-start gap-4">
       <div class="text-4 font-600">
@@ -138,7 +136,6 @@ function addToCart() {
       </div>
     </div>
   </div>
-  <Footer />
 </template>
 
 <style scoped lang="scss">

@@ -30,8 +30,6 @@ function createNewOrder(e: any) {
 </script>
 
 <template>
-  <Header />
-
   <div
     class="mt-108px flex flex-col items-start justify-center gap-6 px-74px py-36px"
   >
@@ -135,7 +133,6 @@ function createNewOrder(e: any) {
       </div>
     </div>
   </div>
-  <Footer />
 </template>
 
 <style scoped>
