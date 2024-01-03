@@ -25,7 +25,7 @@ const router = useRouter()
 
 <style scoped lang="scss">
 .banner {
-  background-image: url('../assets/images/divan1.png');
+  background-image: url('https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600');
   background-size: 100%;
   object-fit: cover;
   background-position: center;
