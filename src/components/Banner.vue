@@ -8,7 +8,7 @@ const router = useRouter()
   <section
     class="banner grid h-[calc(100vh-108px)] w-full flex flex-col justify-center gap-4 bg-no-repeat pl-60px"
   >
-    <div class="card w-494px flex flex-col gap-4">
+    <div class="card w-494px flex flex-col gap-4 rounded-12px px-2">
       <div class="text-28px font-700">
         Yuqori sifatli  mebel faqat siz uchun
       </div>
@@ -25,7 +25,7 @@ const router = useRouter()
 
 <style scoped lang="scss">
 .banner {
-  background-image: url('https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-image: url('https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600');
   background-size: 100%;
   object-fit: cover;
   background-position: center;
