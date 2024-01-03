@@ -1,18 +1,20 @@
 <script setup lang="ts">
-const router = useRouter()
-const { t } = useI18n()
 </script>
 
 <template>
-  <main p="x4 y10" text="center teal-700 dark:gray-200">
-    <div text-4xl>
-      <div i-carbon-warning inline-block />
+  <div class="grid h-100vh place-items-center">
+    <div class="flex flex-col items-center gap-3">
+      <div class="xs:text-8 text-primary md:text-14 md:text-18 sm:text-10">
+        OOPS...
+      </div>
+      <div class="xs:text-12 text-primary md:text-18 md:text-22 sm:text-16">
+        404
+      </div>
+      <router-link to="/">
+        <the-button prepend-icon="ri-arrow-left-line" class="text-5 text-primary">
+          Bosh sahifaga qaytish
+        </the-button>
+      </router-link>
     </div>
-    <RouterView />
-    <div>
-      <button text-sm btn m="3 t8" @click="router.back()">
-        {{ t('button.back') }}
-      </button>
-    </div>
-  </main>
+  </div>
 </template>

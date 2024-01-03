@@ -42,7 +42,15 @@ declare module 'vue-router/auto/routes' {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...all]': RouteRecordInfo<'/[...all]', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
     '/about': RouteRecordInfo<'/about', '/about', Record<never, never>, Record<never, never>>,
-    '/hi/[name]': RouteRecordInfo<'/hi/[name]', '/hi/:name', { name: ParamValue<true> }, { name: ParamValue<false> }>,
+    '/admin/dashboard/': RouteRecordInfo<'/admin/dashboard/', '/admin/dashboard', Record<never, never>, Record<never, never>>,
+    '/admin/dashboard/orders/': RouteRecordInfo<'/admin/dashboard/orders/', '/admin/dashboard/orders', Record<never, never>, Record<never, never>>,
+    '/auth/login/': RouteRecordInfo<'/auth/login/', '/auth/login', Record<never, never>, Record<never, never>>,
+    '/information/about-us/': RouteRecordInfo<'/information/about-us/', '/information/about-us', Record<never, never>, Record<never, never>>,
+    '/information/cart/': RouteRecordInfo<'/information/cart/', '/information/cart', Record<never, never>, Record<never, never>>,
+    '/information/contact/': RouteRecordInfo<'/information/contact/', '/information/contact', Record<never, never>, Record<never, never>>,
+    '/information/products/': RouteRecordInfo<'/information/products/', '/information/products', Record<never, never>, Record<never, never>>,
+    '/information/select-furniture/': RouteRecordInfo<'/information/select-furniture/', '/information/select-furniture', Record<never, never>, Record<never, never>>,
+    '/information/services/': RouteRecordInfo<'/information/services/', '/information/services', Record<never, never>, Record<never, never>>,
     '/README': RouteRecordInfo<'/README', '/README', Record<never, never>, Record<never, never>>,
   }
 }

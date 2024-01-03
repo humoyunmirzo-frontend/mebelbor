@@ -7,11 +7,25 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AdminHeader: typeof import('./components/AdminHeader.vue')['default']
+    Advices: typeof import('./components/Advices.vue')['default']
+    Banner: typeof import('./components/Banner.vue')['default']
+    Features: typeof import('./components/Features.vue')['default']
+    Footer: typeof import('./components/Footer.vue')['default']
+    Header: typeof import('./components/Header.vue')['default']
+    HomeDesigns: typeof import('./components/HomeDesigns.vue')['default']
+    Products: typeof import('./components/Products.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheCounter: typeof import('./components/TheCounter.vue')['default']
-    TheFooter: typeof import('./components/TheFooter.vue')['default']
-    TheInput: typeof import('./components/TheInput.vue')['default']
+    TheButton: typeof import('./components/TheButton.vue')['default']
+    TheButtonGroup: typeof import('./components/TheButtonGroup.vue')['default']
+    TheCheckbox: typeof import('./components/TheCheckbox.vue')['default']
+    TheIconButton: typeof import('./components/TheIconButton.vue')['default']
+    TheModal: typeof import('./components/TheModal.vue')['default']
+    TheOverlay: typeof import('./components/TheOverlay.vue')['default']
+    TheProductCard: typeof import('./components/TheProductCard.vue')['default']
+    TheRadio: typeof import('./components/TheRadio.vue')['default']
+    TheTable: typeof import('./components/TheTable.vue')['default']
   }
 }

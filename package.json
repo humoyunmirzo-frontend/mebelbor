@@ -17,15 +17,22 @@
     "sizecheck": "npx vite-bundle-visualizer"
   },
   "dependencies": {
+    "@formkit/vue": "^1.4.0",
+    "@iconify/vue": "^4.1.1",
     "@unhead/vue": "^1.8.9",
     "@unocss/reset": "^0.58.1",
     "@vueuse/core": "^10.7.0",
     "@vueuse/head": "^2.0.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.1.7",
+    "remixicon": "^4.0.1",
+    "swiper": "^11.0.5",
+    "v-mask": "^2.3.0",
     "vue": "^3.3.13",
     "vue-demi": "^0.14.6",
+    "vue-gallery": "^2.0.5",
     "vue-i18n": "^9.8.0",
+    "vue-numerals": "^4.0.6",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
@@ -51,6 +58,7 @@
     "markdown-it-shikiji": "^0.9.12",
     "pnpm": "^8.13.1",
     "rollup": "^4.9.1",
+    "sass": "^1.69.6",
     "shikiji": "^0.9.12",
     "simple-git-hooks": "^2.9.0",
     "taze": "^0.13.1",

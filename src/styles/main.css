@@ -7,6 +7,9 @@ body,
   margin: 0;
   padding: 0;
 }
+.vue-devtools-panel {
+  display: none !important;
+}
 
 html.dark {
   background: #121212;
