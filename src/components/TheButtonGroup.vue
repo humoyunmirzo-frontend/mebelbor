@@ -29,18 +29,12 @@ function countUp() {
     <button :class="`rounded-s-8px type-${props.type} size-${props.size}`" :disabled="props.disabled || props.loading" @click="countDown">
       <Icon icon="ri-subtract-line" />
     </button>
-    <div class="py-1 text-white">
-      |
+    <div class="text-white">
+      {{ props.modelValue }}
     </div>
     <button :class="`rounded-e-8px type-${props.type} size-${props.size}`" :disabled="props.disabled || props.loading" @click="countUp">
       <Icon icon="ri-add-circle-line" />
     </button>
-    <div class="py-1 text-white">
-      |
-    </div>
-    <div :class="`text-white   size-${props.size}`">
-      {{ props.modelValue }}
-    </div>
   </div>
 </template>
 
